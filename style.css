@@ -351,3 +351,95 @@ hr{
   color: white;
   font-weight: bold;
 }
+/* ----------------- Responsive Enhancements ----------------- */
+
+/* Make header-3 (main banner) stack on small screens */
+@media (max-width: 768px) {
+  .header-3 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .text-1 {
+    margin: 0;
+  }
+
+  .button-1 {
+    margin: 0 auto;
+  }
+}
+
+/* Make service image cards wrap and scale on small screens */
+@media (max-width: 768px) {
+  .images-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Make about us section stack on mobile */
+@media (max-width: 768px) {
+  .aboutus-image {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .image2 {
+    width: 90%;
+    height: auto;
+    margin: 20px 0;
+  }
+}
+
+/* Responsive Features Icons section */
+@media (max-width: 768px) {
+  .icons1 {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 40px;
+  }
+
+  .express {
+    text-align: center;
+  }
+}
+
+/* Responsive background image text overlay */
+@media (max-width: 768px) {
+  .text-overlay {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    font-size: 90%;
+  }
+
+  .head {
+    font-size: 24px;
+  }
+
+  .para {
+    font-size: 16px;
+  }
+}
+
+/* Responsive Contact (last) Section */
+@media (max-width: 768px) {
+  .last {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .img img {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .textt {
+    padding: 10px;
+  }
+}
